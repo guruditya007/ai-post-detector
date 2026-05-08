@@ -81,6 +81,14 @@ PRs welcome. If you spot a common AI phrase pattern that's missing, open an issu
 
 ---
 
+## Author
+
+**Guruditya Sinha**
+📧 guruditya007@gmail.com
+🐙 [github.com/guruditya007](https://github.com/guruditya007)
+
+---
+
 ## License
 
-MIT
+MIT © Guruditya Sinha
