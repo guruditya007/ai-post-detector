@@ -1,7 +1,7 @@
 /**
  * AI Post Detector — Firefox Extension
  * Author: Guruditya Sinha <guruditya007@gmail.com>
- * GitHub: https://github.com/guruditya007
+ * GitHub: https://github.com/guruditya007/ai-post-detector
  * License: MIT
  */
 
