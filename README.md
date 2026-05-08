@@ -7,7 +7,7 @@ A lightweight Firefox extension that detects whether a LinkedIn or Facebook post
 ## How it works
 
 1. Visit LinkedIn or Facebook
-2. **Highlight** any post text
+2. **Highlight** the text in any post
 3. Right-click → **"🤖 Detect AI Content"**
 4. A panel appears showing:
    - A **0–100% AI confidence score**
