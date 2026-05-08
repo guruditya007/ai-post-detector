@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "AI Post Detector",
+  "version": "1.0",
+  "description": "Detect if a LinkedIn or Facebook post is AI-generated",
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.linkedin.com/*", "*://*.facebook.com/*", "*://*.fb.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "ai-detector@extension",
+      "strict_min_version": "57.0"
+    }
+  }
+}
